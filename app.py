@@ -2,8 +2,11 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/", methods=["GET", "POST"])
 def home():
+    if request.method == "POST":
+    return "Photo uploaded successfully!"
+    
     return """
     <h1>JeffreyTariang AI</h1>
     <p>AI Photo Enhancer</p>
