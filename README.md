@@ -8,3 +8,10 @@ Features:
 - Saves enhanced photos
 
 Created by Jeffrey Tariang.
+Features:
+
+- Sharpens images
+- Improves contrast
+- Improves brightness
+- Enhances colors
+- Saves enhanced photos
